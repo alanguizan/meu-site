@@ -27,7 +27,7 @@ nav > a{
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
     display: inline;
 }
 nav > a:hover{
