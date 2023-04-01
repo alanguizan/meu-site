@@ -6,20 +6,21 @@ body{
     background: white;
 }
 h1{
-   
+    width: 800px;
     border-radius: 20px;
-    max-width: 770px;
+    max-width:600px;
     background-image: linear-gradient(to left, rgb(170, 170, 181), rgb(75, 70, 70), rgb(249, 249, 241));
     background-size: 500% 100%;
     font-family: 'Raleway', sans-serif;
-    padding-left: 80px;
+    padding-left: 60px;
     font-size: 50px;
     
 }
 nav{
-    max-width: 700px;
+    max-width: 500px;
     float: right;
     font-size: 20px;
+    width: 100%;
 }
 nav > a{
     padding: 30px;
@@ -49,15 +50,18 @@ nav > a:hover{
     left: 50%;
     transform: translate(-50%);
     display: flex; 
+    width: 100%;
+    margin: auto;
+
 }
 .bar {
-    width: 70px;
+    width: 15px;
     height: 17px;
     border: 2px solid white;
-    margin: 6px;
-    border-radius: 5px;
+    border-radius: 70px;
     cursor: pointer;
     transition: .4s;
+    margin: 15px;
 }
 .bar:hover{
     background-color: white;
@@ -69,8 +73,13 @@ input{
 display: flex;
 width: 700%;
 height: 100%;
+min-width: 100%;
+max-width: 700%;
+margin: auto;
+
 }
 .slide{
+    display: flex;
     padding-top: 50px;
     width: 15%;
     transition: .6s;
@@ -100,4 +109,16 @@ height: 100%;
 }
 #slide7:checked ~.s1{
     margin-left: -90%;
+}
+main{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 800px;
+}
+img{
+    width: 100%;
 }
